@@ -51,9 +51,9 @@
   <body id="mainContainer" class="fade-out">
     <main>
       
-    <h1 id="large">Coilett Industries</h1>
+    <h1 id="large">Call It Photography</h1>
     <h2>Introduction</h2>
-    <p id="p1">Coilett Industries is a company made to help people who have disabilities or problems mentally.  We strive
+    <p id="p1">Call It Photography is a company made to help people who have disabilities or problems mentally.  We strive
     to find out why the brain is working the way it is, and want to learn how we can better fix it.</p>
     
     <script>
