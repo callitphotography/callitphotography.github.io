@@ -60,7 +60,7 @@
     <main>
       
     <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
-    <br>
+    
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
         <span style="padding-right: 30px;">
