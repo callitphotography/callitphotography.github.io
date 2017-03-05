@@ -63,10 +63,10 @@
     <br>
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
-        <p><a href="index.html">Home</a>               
-        <a href="photos.html">Photos</a>               
-        <a href="prices.html">Prices</a>               
-        </p>
+        <a style="padding-right: 20px" href="index.html">Home</a>               
+        <a style="padding-right: 20px" href="photos.html">Photos</a>               
+        <a style="padding-right: 20px" href="prices.html">Prices</a>               
+        
       </li>
     </ul>
     
