@@ -62,12 +62,15 @@
     <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
     <br>
     <ul style="text-align: center;list-style-type: none;">
-      <li id="links" style="list-style-type: none;text-align:center;display: inline;border-bottom: thin solid black;">
-        <a href="index.html">Home</a>
-        <a href="photos.html">Photos</a>
-        <a href="prices.html">Prices</a>
+      <li id="links" style="list-style-type: none;text-align:center;display: inline;">
+        <p><a href="index.html">Home</a>               
+        <a href="photos.html">Photos</a>               
+        <a href="prices.html">Prices</a>               
+        </p>
       </li>
     </ul>
+    
+    <div style="border-top: thin solid black;"/>
     
     <h2>Introduction</h2>
     <p id="p1">Call It Photography</p>
