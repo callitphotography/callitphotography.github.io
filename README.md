@@ -3,7 +3,7 @@
   <head>
     <style>
       body {
-         background-color: #8b8589;
+         background-color: #feffe7;
       }
     
       .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
