@@ -5,12 +5,16 @@
       body {
          background-color: white;
       }
+      
       h1 {
          text-align: center;
          padding-top: 100px;
       {
+      
       li {
         text-align:center;
+        list-style-type: none;
+        display: inline;
       }
       
       .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
