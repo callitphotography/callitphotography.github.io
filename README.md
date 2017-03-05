@@ -41,7 +41,6 @@
         var opacity = 0.0;
         document.body.style.opacity = 1;
         document.body.style.transition = '2s opacity';
-        draw();
       }
       
       window.onload = load;
