@@ -63,11 +63,9 @@
     
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
-        <span style="padding-right: 30px;">
-          <a style="font-size: 18px;" href="index.html">Home</a>
-        </span>
-        <a style="padding-right: 30px;font-size: 18px;" href="photos.html">Photos</a><span/>
-        <a style="padding-right: 30px;font-size: 18px;" href="prices.html">Prices</a><span/>
+        <span style="padding-right: 30px;"><a style="font-size: 18px;" href="index.html">Home</a></span>
+        <span style="padding-right: 30px;"><a style="font-size: 18px;" href="photos.html">Photos</a></span>
+        <span style="padding-right: 30px;"><a style="font-size: 18px;" href="prices.html">Prices</a></span>
         <a style="font-size: 18px;" href="contact.html">Contact Me</a>
       </li>
     </ul>
