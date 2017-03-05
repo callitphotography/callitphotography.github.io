@@ -2,6 +2,10 @@
 <html>
   <head>
     <style>
+      body {
+         background-color: #8b8589;
+      }
+    
       .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
          font-size: 12px;
          color: black;
@@ -55,14 +59,7 @@
     <p id="p1">Call It Photography is a company made to help people who have disabilities or problems mentally.  We strive
     to find out why the brain is working the way it is, and want to learn how we can better fix it.</p>
     
-    <script>
-      document.getElementById("p1").style.color = "red";
-      document.getElementById("p1").style.backgroundColor = "randomColor";
-      document.getElementById("p1").style.border = "medium solid black";
-    </script>
     
-    <button type="button" onclick="document.getElementById('p1').style.color = 'blue'">
-      Change the CSS!</button>
     <br>
     <br>
     <span class="normal">Since there are so many different opinions on the different subjects of the brain</span>
