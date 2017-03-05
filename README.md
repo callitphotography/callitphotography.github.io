@@ -10,7 +10,11 @@
          text-align: center;
          padding-top: 100px;
       {
-     
+      
+      ul {
+        text-align:center;
+      }
+      
       li {
         text-align:center;
         display: inline;
