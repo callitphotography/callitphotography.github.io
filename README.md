@@ -75,10 +75,9 @@
     <button type="button" onclick="document.querySelector('#mainContainer').style.backgroundColor = 'orange'">Change the page</button>
     <br>
     
-    <h3>Canvas API</h3>
-    <h4>Now Serving: </h4>
+    <h3>My Pictures</h3>
     <div class="relative">
-      <img src="pic_mountain.jpg" alt="First Picture" style="width:304px;height:228px;">
+      <img src="Horses.jpg" alt="First Picture" style="width:304px;height:228px;">
     </div>
     <p>This whole section other than the headers was done using Canvas API, here's where I learned how:
     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes">Drawing shapes</a>
