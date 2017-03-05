@@ -11,6 +11,10 @@
          padding-top: 100px;
       {
       
+      ul {
+        list-style-type: none;
+      }
+      
       li {
         text-align:center;
         list-style-type: none;
