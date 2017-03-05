@@ -11,7 +11,7 @@
          padding-top: 100px;
       {
       
-      li {
+      li#links {
         text-align:center;
         display: inline;
         border-bottom: thin solid black;
@@ -68,7 +68,7 @@
     <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
     <br>
     <ul style="text-align: center;list-style-type: none;">
-      <li style="list-style-type: none;"><a href="index.html">Home</a>
+      <li id="links" style="list-style-type: none;"><a href="index.html">Home</a>
         <a href="photos.html">Photos</a>
         <a href="prices.html">Prices</a>
       </li>
