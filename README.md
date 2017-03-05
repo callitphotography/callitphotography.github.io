@@ -11,12 +11,6 @@
          padding-top: 100px;
       {
       
-      li#links {
-        text-align:center;
-        display: inline;
-        border-bottom: thin solid black;
-      }
-      
       .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
          font-size: 12px;
          color: black;
@@ -68,21 +62,21 @@
     <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
     <br>
     <ul style="text-align: center;list-style-type: none;">
-      <li id="links" style="list-style-type: none;"><a href="index.html">Home</a>
+      <li id="links" style="list-style-type: none;text-align:center;display: inline;border-bottom: thin solid black;">
+        <a href="index.html">Home</a>
         <a href="photos.html">Photos</a>
         <a href="prices.html">Prices</a>
       </li>
     </ul>
     
     <h2>Introduction</h2>
-    <p id="p1">Call It Photography is a company made to help people who have disabilities or problems mentally.  We strive
-    to find out why the brain is working the way it is, and want to learn how we can better fix it.</p>
+    <p id="p1">Call It Photography</p>
     
     
     <br>
     <br>
-    <span class="normal">Since there are so many different opinions on the different subjects of the brain</span>
-    <span class="normal">we feel it's important to post an article written by one of our own:</span>
+    <span class="normal">pictures of you</span>
+    <span class="normal">pictures of me</span>
     <br>
     <br>
     <a class="center" id="large" href="How Psychotherapy Changes the Brain.docx">How Psychotherapy Changes the Brain</a>
