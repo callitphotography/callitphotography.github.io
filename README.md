@@ -9,6 +9,9 @@
          text-align: center;
          padding-top: 100px;
       {
+      li {
+        text-align:center;
+      }
       
       .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
          font-size: 12px;
@@ -59,6 +62,13 @@
     <main>
       
     <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
+    <br>
+    <ul>
+      <li><a href="index.html">Home</a> </li>
+      <li><a href="photos.html">Photos</a></li>
+      <li><a href="prices.html">Prices</a></li>
+    </ul>
+    
     <h2>Introduction</h2>
     <p id="p1">Call It Photography is a company made to help people who have disabilities or problems mentally.  We strive
     to find out why the brain is working the way it is, and want to learn how we can better fix it.</p>
