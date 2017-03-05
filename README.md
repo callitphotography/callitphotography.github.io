@@ -6,9 +6,8 @@
          background-color: white;
       }
       h1 {
-         font-style: ;
-         color: #854442;
-         font-family: "Brush Script MT", cursive;
+         text-align: center;
+         padding-top: 100px;
       {
       
       .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
@@ -59,7 +58,7 @@
   <body id="mainContainer" class="fade-out">
     <main>
       
-    <h1 id="large">Call It Photography</h1>
+    <h1 id="large"><img src="Call it.JPG" alt="First Picture"><img </h1>
     <h2>Introduction</h2>
     <p id="p1">Call It Photography is a company made to help people who have disabilities or problems mentally.  We strive
     to find out why the brain is working the way it is, and want to learn how we can better fix it.</p>
