@@ -3,9 +3,14 @@
   <head>
     <style>
       body {
-         background-color: #ffffff;
+         background-color: white;
       }
-    
+      h1 {
+         font-style: ;
+         color: #854442;
+         font-family: "Brush Script MT", cursive;
+      {
+      
       .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
          font-size: 12px;
          color: black;
