@@ -14,6 +14,7 @@
       li {
         text-align:center;
         display: inline;
+        border-bottom: thin solid black;
       }
       
       .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
