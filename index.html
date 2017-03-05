@@ -1,43 +1,99 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
   <head>
-    <title>Eric Collett's Assignments</title>
     <style>
-      ul#menu li
-        {
-          text-align: center;
-        }
+      .normal {                    <!--These are all the original styles for the page, not included in the .css stylesheet-->
+         font-size: 12px;
+         color: black;
+         background: white;
+         padding-left: 15px;
+      }
       
+      .fade-out {
+        opacity: 0;
+        transition: none;
+      }
+      
+      span {
+         display: block;
+      }
+      
+      div.relative {
+        position: relative;
+        left: 30px;
+      }
+      
+      .center {
+         text-align: center;
+      }
+                                   <!--Down to this point.-->
     </style>
+    <title>Call It Photography</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    
+    <script>
+      var randomColor = Math.floor(Math.random()*16777215).toString(16);
+    </script>
+    
+    <script>
+      
+      function load() {
+        var opacity = 0.0;
+        document.body.style.opacity = 1;
+        document.body.style.transition = '2s opacity';
+        draw();
+      }
+      
+      window.onload = load;
+    </script>
+    
   </head>
-  <body>
-    <h1 style="text-align:center;">CS 213 Assignments</h1>
+  <body id="mainContainer" class="fade-out">
+    <main>
+      
+    <h1 id="large">Call It Photography</h1>
+    <h2>Introduction</h2>
+    <p id="p1">Call It Photography is a company made to help people who have disabilities or problems mentally.  We strive
+    to find out why the brain is working the way it is, and want to learn how we can better fix it.</p>
     
-    <ul id="menu" style="list-style-type:none">
-      <li><a href="week02/week02.html">Week 02</a></li>
-      <br>
-      <li><a href="week03/week03.html">Week 03</a></li>
-      <br>
-      <li><a href="week04/week04.html">Week 04</a></li>
-      <br>
-      <li><a href="week05/week05.html">Week 05</a></li>
-      <br>
-      <li><a href="week06/week06.html">Week 06</a></li>
-      <br>
-      <li><a href="week07/week07.html">Week 07</a></li>
-      <br>
-      <li><a href="week08/week08.html">Week 08</a></li>
-      <br>
-      <li><a href="week09/week09.html">Week 09</a></li>
-      <br>
-      <li><a href="week10/week10.html">Week 10</a></li>
-      <br>
-      <li><a href="week11/week11.html">Week 11</a></li>
-      <br>
-      <li><a href="week12/week12.html">Week 12</a></li>
-      <br>
-      <li><a href="week13/week13.html">Week 13</a></li>
-    </ul>
+    <script>
+      document.getElementById("p1").style.color = "red";
+      document.getElementById("p1").style.backgroundColor = "randomColor";
+      document.getElementById("p1").style.border = "medium solid black";
+    </script>
     
+    <button type="button" onclick="document.getElementById('p1').style.color = 'blue'">
+      Change the CSS!</button>
+    <br>
+    <br>
+    <span class="normal">Since there are so many different opinions on the different subjects of the brain</span>
+    <span class="normal">we feel it's important to post an article written by one of our own:</span>
+    <br>
+    <br>
+    <a class="center" id="large" href="How Psychotherapy Changes the Brain.docx">How Psychotherapy Changes the Brain</a>
+    <br><br><br>
+    <button type="button" onclick="document.querySelector('#mainContainer').style.backgroundColor = 'orange'">Change the page</button>
+    <br>
+    
+    <h3>Canvas API</h3>
+    <h4>Now Serving: </h4>
+    <div class="relative">
+      <canvas id="canvas" width="350" height="400"></canvas>
+    </div>
+    <p>This whole section other than the headers was done using Canvas API, here's where I learned how:
+    <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes">Drawing shapes</a>
+    </p>
+    <br>
+    
+    <h1>End Of Page</h1>
+    <p class="important">If you really want to go to the next page just make sure you click on the link for page 2.
+    The "Home Directory" link will bring you back to the original page, and the "Week 03 Team assignment" will bring
+    you do the team activity for this week.</p>
+    
+    <a class="page2" href="FunPage.html">Continue to page 2 >> </a>
+    <hr>
+    <a href="../index.html">Home Directory</a>
+    <br>
+    </main>
   </body>
 </html>
