@@ -95,15 +95,15 @@
     
     <h3>My Pictures</h3>
     <div style="text-align:center;max-width: 800px">
-      <img class="slides" src="1.JPG" alt="First Picture" style="width:100%;"/>
-      <img class="slides" src="2.JPG" alt="Second Picture" style="width:100%;"/>
-      <img class="slides" src="3.JPG" alt="Third Picture" style="width:100%;"/>
-      <img class="slides" src="4.JPG" alt="Fourth Picture" style="width:100%;"/>
-      <img class="slides" src="5.JPG" alt="Fifth Picture" style="width:100%;"/>
-      <img class="slides" src="6.JPG" alt="Sixth Picture" style="width:100%;"/>
-      <!--<img class="slides" src="7.JPG" alt="Seventh Picture" style="width:100%;"/>-->
-      <!--<img class="slides" src="8.JPG" alt="Eighth Picture" style="width:100%;"/>-->
-      <!--<img class="slides" src="9.JPG" alt="Ninth Picture" style="width:100%;"/>-->
+      <img class="slides" src="1.JPG" alt="First Picture" style="width:100%;">
+      <img class="slides" src="2.JPG" alt="Second Picture" style="width:100%;">
+      <img class="slides" src="3.JPG" alt="Third Picture" style="width:100%;">
+      <img class="slides" src="4.JPG" alt="Fourth Picture" style="width:100%;">
+      <img class="slides" src="5.JPG" alt="Fifth Picture" style="width:100%;">
+      <img class="slides" src="6.JPG" alt="Sixth Picture" style="width:100%;">
+      <!--<img class="slides" src="7.JPG" alt="Seventh Picture" style="width:100%;">-->
+      <!--<img class="slides" src="8.JPG" alt="Eighth Picture" style="width:100%;">-->
+      <!--<img class="slides" src="9.JPG" alt="Ninth Picture" style="width:100%;">-->
     </div>
     <script>
       var slide = 0;
