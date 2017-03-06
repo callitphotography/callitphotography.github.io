@@ -84,7 +84,7 @@
     <main>
       
     <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
-    
+    <hr>
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
         <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;text-decoration: none;" href="index.html">Home</a></span>
@@ -100,7 +100,7 @@
     <p id="p1">Call It Photography</p>
     <br>
     <br>
-    <div style="margin-left: auto;margin-right: auto;width: 6em;max-width: 500px">
+    <div style="max-width: 500px">
       <div class="slides fade">
         <img src="1.JPG" alt="First Picture" style="width:100%;">
         </div>
@@ -149,9 +149,6 @@
     </script>
     <br>
     
-    <hr>
-    <a href="index.html">Home Directory</a>
-    <br>
     </main>
   </body>
 </html>
