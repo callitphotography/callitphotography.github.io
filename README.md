@@ -51,8 +51,8 @@
       }
       
       .fade {
-        webkit-animation-name: fade;
-        webkit-animation-duration: 2s;
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 2s;
         animation-name: fade;
         animation-duration: 2s;
       }
@@ -106,26 +106,26 @@
     <br>
     <br>
     <div style="text-align:center;max-width: 500px">
-      <div class="fade">
-        <img class="slides" src="1.JPG" alt="First Picture" style="width:100%;">
+      <div class="slides fade">
+        <img src="1.JPG" alt="First Picture" style="width:100%;">
         </div>
-      <div class="fade">
-        <img class="slides" src="2.JPG" alt="Second Picture" style="width:100%;">
+      <div class="slides fade">
+        <img src="2.JPG" alt="Second Picture" style="width:100%;">
         </div>
-      <div class="fade">
-        <img class="slides" src="3.JPG" alt="Third Picture" style="width:100%;">
+      <div class="slides fade">
+        <img src="3.JPG" alt="Third Picture" style="width:100%;">
         </div>
-      <div class="fade">
-        <img class="slides" src="4.JPG" alt="Fourth Picture" style="width:100%;">
+      <div class="slides fade">
+        <img src="4.JPG" alt="Fourth Picture" style="width:100%;">
         </div>
-      <div class="fade">
-        <img class="slides" src="5.JPG" alt="Fourth Picture" style="width:100%;">
+      <div class="slides fade">
+        <img src="5.JPG" alt="Fifth Picture" style="width:100%;">
         </div>
-      <div class="fade">
-        <img class="slides" src="6.JPG" alt="Fourth Picture" style="width:100%;">
+      <div class="slides fade">
+        <img src="6.JPG" alt="Sixth Picture" style="width:100%;">
         </div>
-      <div class="fade">
-        <img class="slides" src="7.JPG" alt="Fourth Picture" style="width:100%;">
+      <div class="slides fade">
+        <img src="7.JPG" alt="Seventh Picture" style="width:100%;">
         </div>
         <!--<img class="slides" src="7.JPG" alt="Seventh Picture" style="width:100%;">-->
         <!--<img class="slides" src="8.JPG" alt="Eighth Picture" style="width:100%;">-->
