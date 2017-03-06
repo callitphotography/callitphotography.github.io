@@ -111,7 +111,7 @@
 
       function changePicture() {
         var number = 0;
-        var slideNumber = document.getElementsByClass("slides");
+        var slideNumber = document.getElementsByClassName("slides");
         
         for (var i = 0; i < slideNumber.length; i++) {
           slide[i].style.display = "none";
