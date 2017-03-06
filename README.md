@@ -37,11 +37,6 @@
          display: block;
       }
       
-      div.relative {
-        position: relative;
-        left: 30px;
-      }
-      
       .slides {
         display: none;
       }
@@ -105,7 +100,7 @@
     <p id="p1">Call It Photography</p>
     <br>
     <br>
-    <div style="position: absolute;margin:0 auto;max-width: 500px">
+    <div style="margin-left: auto;margin-right: auto;width: 6em;max-width: 500px">
       <div class="slides fade">
         <img src="1.JPG" alt="First Picture" style="width:100%;">
         </div>
