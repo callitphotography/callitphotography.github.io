@@ -49,6 +49,18 @@
       .center {
          text-align: center;
       }
+      
+      .fade {
+        animation-name: fade;
+        animation-duration: 2s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .2;}
+        to {opacity: 1;}
+      }
+      
+      
                                    <!--Down to this point.-->
     </style>
     <title>Call It Photography</title>
@@ -94,7 +106,7 @@
     <br><br><br><br><br>
     
     <h3>My Pictures</h3>
-    <div style="text-align:center;max-width: 800px">
+    <div class="fade" style="text-align:center;max-width: 500px">
       <img class="slides" src="1.JPG" alt="First Picture" style="width:100%;">
       <img class="slides" src="2.JPG" alt="Second Picture" style="width:100%;">
       <img class="slides" src="3.JPG" alt="Third Picture" style="width:100%;">
