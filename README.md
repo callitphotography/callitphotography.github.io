@@ -18,6 +18,11 @@
          padding-left: 15px;
       }
       
+      a:hover {
+        color: gray;
+        text-decoration: none;
+      }
+      
       .fade-out {
         opacity: 0;
         transition: none;
