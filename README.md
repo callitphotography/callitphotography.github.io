@@ -18,6 +18,10 @@
          padding-left: 15px;
       }
       
+      a {
+        color: black;
+      }
+      
       a:hover {
         color: gray;
         text-decoration: none;
