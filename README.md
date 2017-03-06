@@ -51,8 +51,15 @@
       }
       
       .fade {
+        webkit-animation-name: fade;
+        webkit-animation-duration: 2s;
         animation-name: fade;
         animation-duration: 2s;
+      }
+      
+      @-webkit-keyframes {
+        from {opacity: .2;}
+        to {opacity: 1;}
       }
       
       @keyframes fade {
@@ -149,7 +156,7 @@
           slide = 1;
         }
         
-        slideNumber[slide-1].style.display = "block";
+        slideNumber[slide-1].style.display = "inline-block";
         setTimeout(changePicture, 3000);
       }
     </script>
