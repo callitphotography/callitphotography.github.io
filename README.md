@@ -83,7 +83,7 @@
   <body id="mainContainer" class="fade-out">
     <main>
       
-    <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
+    <h1 id="large"><img src="Call it.PNG" alt="Title"/> </h1>
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
         <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;text-decoration: none;" href="index.html">Home</a></span>
@@ -93,9 +93,6 @@
       </li>
     </ul>
     <hr>
-    
-    <h2>Introduction</h2>
-    <p id="p1">Call It Photography</p>
     <br>
     <br>
     <div style="margin-left: auto;margin-right: auto;max-width: 500px;max-height: 600px">
