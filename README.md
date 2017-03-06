@@ -87,30 +87,20 @@
     
     <br>
     <br>
-    <span class="normal">pictures of you</span>
+    <span class="normal">pictures of you</span> <br>
     <span class="normal">pictures of me</span>
     <br>
-    <br>
-    <a class="center" id="large" href="How Psychotherapy Changes the Brain.docx">How Psychotherapy Changes the Brain</a>
-    <br><br><br>
-    <button type="button" onclick="document.querySelector('#mainContainer').style.backgroundColor = 'orange'">Change the page</button>
-    <br>
+    <br><br><br><br><br>
     
     <h3>My Pictures</h3>
     <div class="relative">
-      <img src="Horses.JPG" alt="First Picture" style="width:900px;height:440px;"/>
+      <img src="Horses.JPG" alt="First Picture" style="width:900px;height:440px;text-align:center;"/>
     </div>
     <p>This whole section other than the headers was done using Canvas API, here's where I learned how:
     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes">Drawing shapes</a>
     </p>
     <br>
     
-    <h1>End Of Page</h1>
-    <p class="important">If you really want to go to the next page just make sure you click on the link for page 2.
-    The "Home Directory" link will bring you back to the original page, and the "Week 03 Team assignment" will bring
-    you do the team activity for this week.</p>
-    
-    <a class="page2" href="FunPage.html">Continue to page 2 >> </a>
     <hr>
     <a href="../index.html">Home Directory</a>
     <br>
