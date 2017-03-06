@@ -68,7 +68,7 @@
   <body id="mainContainer" class="fade-out">
     <main>
       
-    <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
+    <h1 id="large"><img src="Call it.PNG" alt="First Picture" style="width:900px;height:440px;"/> </h1>
     
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
