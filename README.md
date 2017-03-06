@@ -105,9 +105,9 @@
     <p id="p1">Call It Photography</p>
     <br>
     <br>
-    <div style="position: absolute;margin:auto;max-width: 500px">
+    <div style="position: absolute;margin:0 auto;max-width: 500px">
       <div class="slides fade">
-        <img src="1.JPG" alt="First Picture" style="width:100%;height:100%;">
+        <img src="1.JPG" alt="First Picture" style="width:100%;">
         </div>
       <div class="slides fade">
         <img src="2.JPG" alt="Second Picture" style="width:100%;">
