@@ -41,6 +41,10 @@
         left: 30px;
       }
       
+      .slides {
+        display: none;
+      }
+      
       .center {
          text-align: center;
       }
@@ -90,7 +94,7 @@
     
     <h3>My Pictures</h3>
     <div style="text-align:center;max-width: 800px">
-      <img class="slides" src="Horses.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="1.JPG" alt="First Picture" style="width:100%;"/>
       <img class="slides" src="2.JPG" alt="First Picture" style="width:100%;"/>
       <img class="slides" src="3.JPG" alt="First Picture" style="width:100%;"/>
       <img class="slides" src="4.JPG" alt="First Picture" style="width:100%;"/>
