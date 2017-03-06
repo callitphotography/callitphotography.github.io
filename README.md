@@ -84,7 +84,6 @@
     <main>
       
     <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
-    <hr>
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
         <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;text-decoration: none;" href="index.html">Home</a></span>
@@ -93,8 +92,7 @@
         <a style="font-size: 18px;color: black;text-decoration: none;" href="contact.html">Contact Me</a>
       </li>
     </ul>
-    
-    <div style="border-top: thin solid black;"/>
+    <hr>
     
     <h2>Introduction</h2>
     <p id="p1">Call It Photography</p>
