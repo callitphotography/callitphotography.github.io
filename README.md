@@ -98,7 +98,7 @@
     <p id="p1">Call It Photography</p>
     <br>
     <br>
-    <div style="margin-left: auto;margin-right: auto;max-width: 500px">
+    <div style="margin-left: auto;margin-right: auto;max-width: 500px;max-height: 600px">
       <div class="slides fade">
         <img src="1.JPG" alt="First Picture" style="width:100%;">
         </div>
@@ -135,6 +135,12 @@
       <div class="slides fade">
         <img src="12.JPG" alt="12 Picture" style="width:100%;">
         </div>
+      <div class="slides fade">
+        <img src="13.JPG" alt="13 Picture" style="width:100%;">
+        </div>
+      <div class="slides fade">
+        <img src="14.JPG" alt="14 Picture" style="width:100%;">
+        </div>
     </div>
     <script>
       var slide = 0;
@@ -154,7 +160,7 @@
         }
         
         slideNumber[slide-1].style.display = "inline-block";
-        setTimeout(changePicture, 3000);
+        setTimeout(changePicture, 4000);
       }
     </script>
     <br>
