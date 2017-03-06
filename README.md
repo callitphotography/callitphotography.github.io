@@ -120,9 +120,21 @@
       <div class="slides fade">
         <img src="7.JPG" alt="Seventh Picture" style="width:100%;">
         </div>
-        <!--<img class="slides" src="7.JPG" alt="Seventh Picture" style="width:100%;">-->
-        <!--<img class="slides" src="8.JPG" alt="Eighth Picture" style="width:100%;">-->
-        <!--<img class="slides" src="9.JPG" alt="Ninth Picture" style="width:100%;">-->
+      <div class="slides fade">
+        <img src="8.JPG" alt="Eighth Picture" style="width:100%;">
+        </div>
+      <div class="slides fade">
+        <img src="9.JPG" alt="Ninth Picture" style="width:100%;">
+        </div>
+      <div class="slides fade">
+        <img src="10.JPG" alt="Tenth Picture" style="width:100%;">
+        </div>
+      <div class="slides fade">
+        <img src="11.JPG" alt="11 Picture" style="width:100%;">
+        </div>
+      <div class="slides fade">
+        <img src="12.JPG" alt="12 Picture" style="width:100%;">
+        </div>
     </div>
     <script>
       var slide = 0;
