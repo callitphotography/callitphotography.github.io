@@ -50,10 +50,6 @@
     <link rel="stylesheet" type="text/css" href="Style.css">
     
     <script>
-      var randomColor = Math.floor(Math.random()*16777215).toString(16);
-    </script>
-    
-    <script>
       
       function load() {
         var opacity = 0.0;
@@ -93,9 +89,38 @@
     <br><br><br><br><br>
     
     <h3>My Pictures</h3>
-    <div class="relative">
-      <img src="Horses.JPG" alt="First Picture" style="width:900px;height:440px;text-align:center;"/>
+    <div style="text-align:center;max-width: 800px">
+      <img class="slides" src="Horses.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="2.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="3.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="4.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="5.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="6.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="7.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="8.JPG" alt="First Picture" style="width:100%;"/>
+      <img class="slides" src="9.JPG" alt="First Picture" style="width:100%;"/>
     </div>
+    <script>
+      var slide = 0;
+      changePicture();
+
+      function changePicture() {
+        var number = 0;
+        var slideNumber = document.getElementsByClass("slides");
+        
+        for (var i = 0; i < slideNumber.length; i++) {
+          slide[i].style.display = "none";
+        }
+        
+        slide++;
+        if (slide > slideNumber.length) {
+          slide = 1;
+        }
+        
+        slideNumber[slide-1].style.display = "block";
+        setTimeout(changePicture, 3000);
+      }
+    </script>
     <br>
     
     <hr>
