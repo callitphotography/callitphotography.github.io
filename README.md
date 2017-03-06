@@ -68,7 +68,7 @@
   <body id="mainContainer" class="fade-out">
     <main>
       
-    <h1 id="large"><img src="Call it.PNG" alt="First Picture" style="width:900px;height:440px;"/> </h1>
+    <h1 id="large"><img src="Call it.PNG" alt="First Picture"/> </h1>
     
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
@@ -98,7 +98,7 @@
     
     <h3>My Pictures</h3>
     <div class="relative">
-      <img src="Horses.JPG" alt="First Picture">
+      <img src="Horses.JPG" alt="First Picture" style="width:900px;height:440px;"/>
     </div>
     <p>This whole section other than the headers was done using Canvas API, here's where I learned how:
     <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes">Drawing shapes</a>
