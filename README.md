@@ -124,16 +124,16 @@
         <img src="9.JPG" alt="Ninth Picture" style="width:100%;">
         </div>
       <div class="slides fade">
-        <img src="10.JPG" alt="Tenth Picture" style="width:100%;">
+        <img src="10.jpg" alt="Tenth Picture" style="width:100%;">
         </div>
       <div class="slides fade">
         <img src="11.JPG" alt="11 Picture" style="width:100%;">
         </div>
       <div class="slides fade">
-        <img src="12.JPG" alt="12 Picture" style="width:100%;">
+        <img src="12.jpg" alt="12 Picture" style="width:100%;">
         </div>
       <div class="slides fade">
-        <img src="13.JPG" alt="13 Picture" style="width:100%;">
+        <img src="13.jpg" alt="13 Picture" style="width:100%;">
         </div>
       <div class="slides fade">
         <img src="14.JPG" alt="14 Picture" style="width:100%;">
