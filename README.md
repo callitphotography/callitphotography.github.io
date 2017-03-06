@@ -155,7 +155,7 @@
     <br>
     
     <hr>
-    <a href="../index.html">Home Directory</a>
+    <a href="index.html">Home Directory</a>
     <br>
     </main>
   </body>
