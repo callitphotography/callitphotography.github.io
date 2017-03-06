@@ -103,16 +103,8 @@
     
     <h2>Introduction</h2>
     <p id="p1">Call It Photography</p>
-    
-    
     <br>
     <br>
-    <span class="normal">pictures of you</span> <br>
-    <span class="normal">pictures of me</span>
-    <br>
-    <br><br><br><br><br>
-    
-    <h3>My Pictures</h3>
     <div style="text-align:center;max-width: 500px">
       <div class="fade">
         <img class="slides" src="1.JPG" alt="First Picture" style="width:100%;">
