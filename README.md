@@ -114,7 +114,7 @@
         var slideNumber = document.getElementsByClassName("slides");
         
         for (var i = 0; i < slideNumber.length; i++) {
-          slide[i].style.display = "none";
+          slideNumber[i].style.display = "none";
         }
         
         slide++;
