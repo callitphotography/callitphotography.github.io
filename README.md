@@ -44,7 +44,6 @@
       
       .slides {
         display: none;
-        text-align: center;
       }
       
       .center {
@@ -106,7 +105,7 @@
     <p id="p1">Call It Photography</p>
     <br>
     <br>
-    <div style="text-align:center;max-width: 500px">
+    <div style="position: absolute;margin:auto;max-width: 500px">
       <div class="slides fade">
         <img src="1.JPG" alt="First Picture" style="width:100%;">
         </div>
