@@ -72,10 +72,10 @@
     
     <ul style="text-align: center;list-style-type: none;">
       <li id="links" style="list-style-type: none;text-align:center;display: inline;">
-        <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;hover:text-decoration: none;" href="index.html">Home</a></span>
-        <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;hover:text-decoration: none;" href="photos.html">Photos</a></span>
-        <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;hover:text-decoration: none;" href="prices.html">Prices</a></span>
-        <a style="font-size: 18px;color: gray;" href="contact.html">Contact Me</a>
+        <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;text-decoration: none;" href="index.html">Home</a></span>
+        <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;text-decoration: none;" href="photos.html">Photos</a></span>
+        <span style="padding-right: 30px;"><a style="font-size: 18px;color: black;text-decoration: none;" href="prices.html">Prices</a></span>
+        <a style="font-size: 18px;color: black;text-decoration: none;" href="contact.html">Contact Me</a>
       </li>
     </ul>
     
